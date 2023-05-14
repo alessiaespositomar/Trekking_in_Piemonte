@@ -34,7 +34,7 @@
                           Escursioni
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="Destinazioni_Venezia.html">Verbano-Cusio-Ossola</a>
+                          <a class="dropdown-item" href="Verbano-Cusio-Ossola.html">Verbano-Cusio-Ossola</a>
                           <a class="dropdown-item" href="Torino.html" >Torino</a>
                         </div>  
 
@@ -42,13 +42,13 @@
                           <a class="nav-link" href="#">Equipaggiamento</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contatti</a>
+                        <a class="nav-link" href="contatti.html">Contatti</a>
                     </li>
                     </ul>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                           <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form" type="search" placeholder="Search" aria-label="Search">
                             <i class="fa fa-search" aria-hidden="true"></i>
                           </form>
                         </li>
@@ -79,8 +79,9 @@
                     <div class="fakeimg">
                       <a href="Torino.html"><img src="immagini/laghi_avigliana (1).webp" alt="immagine di paesaggio Torino" width="390px" height="300px"></div></a>
                     <br>
+                    <div class="discover">
                     <h3>Torino</h3>
-                    <a href="Torino.html"><button type="button" class="btn btn-link">Scopri di più</button></a>
+                    <a href="Torino.html"><button type="button" class="btn-link">Scopri di più</button></a></div>
                   </div>
         </div>
     </div>
@@ -94,9 +95,10 @@
         <div class="leftcolumn">
             <div class="card">
                 <div class="fakeimg">
-                <img src="immagini/tramonto.webp" alt="immagine di paesaggio Domodossola" width="390px" height="300px"></div><br>
+                  <a href="Verbano-Cusio-Ossola.html"><img src="immagini/tramonto.webp" alt="immagine di paesaggio Domodossola" width="390px" height="300px"></div></a><br>
                 <h3>Verbano-Cusio-Ossola</h3>
-                <button type="button" class="btn btn-link">Scopri di più</button>
+                <div class="discover">
+                <a href="Verbano-Cusio-Ossola.html"><button type="button" class="btn-link">Scopri di più</button></a></div>
             </div>
         </div>
         </div>
@@ -120,6 +122,7 @@
       </div>
     </div>
   </div>
+
 <hr>
 
     <br><br><br><br><br><br><br><br><br><br>
@@ -156,9 +159,6 @@
 
   <hr>
 
-	
-
-
   <footer class="bg-light text-center text-black">
     <!-- Social media -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -167,6 +167,8 @@
       <div class="container">
         <div class="row">
           <div class="col order-last">
+            
+<br><br>
   <!-- Icone -->
   <h5>Seguici sui nostri social</h5>
   <a href="#" class="fa fa-facebook"></a>
@@ -174,54 +176,30 @@
   <a href="#" class="fa fa-instagram"></a>
 </div>
   
-  <br>
-  <br>
+<br>
 
-          <div class="row d-flex justify-content-center">
-              <p><strong>Registrati alla nostra newsletter</strong></p>
-            </div>
-  <br>
-            <div class="col-4">
-              <!-- Email input -->
-              <div class="form-outline form-black mb-4">
-                <input type="email" id="E-mail" class="form-control" placeholder="E-mail" />
-                <label class="form-label">Inserisci il tuo indirizzo email</label>
+  <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-5 item">
+<br><br>
+            <ul>
+                <ul><a href="contatti.html">Contatti</a></ul>
+                <ul><a href="#">FAQs</a></ul>
+                <ul><a href="#">Privacy, termini e condizioni</a></ul>
+            </ul>
+        </div>
+
+        <div class="col-md-6 item text">
+<br>
+<h5>Registrati alla nostra newsletter <img src="immagini/email.png" height="40px" width="40px"></h5>
+            <p>Resta sempre aggiornato per non perderti le nostre prossime escursioni!</p>
+            <div class="form-input">
+                <label for="email"></label>
+                <input type="email" placeholder="Inserisci la tua e-mail">
+                <button class="subscribe-btn">Registrati</button>
               </div>
-            </div>
-            
-  
-            <div class="col-auto">
-              <button type="submit" class="btn">
-                Registrati
-              </button>
-            </div>
-          </div>
-          <!--Grid row-->
-        </form>
-      </section>
-    
-      <div class="row d-flex justify-content-center">
-        <p><strong>Contatti</strong></p>
-      </div>
-
-<div class="row d-flex justify-content-center">
-  <p><strong>FAQs</strong></p>
-</div>
-
-      <div class="row d-flex justify-content-center">
-        <p><strong>Privacy, termini e condizioni</strong></p>
-      </div>
-
-      <br><br>
-      
-      <section class="mb-4">
-        <p>
-          TREKKANDO IN PIEMONTE© 2023
-        </p>
-      </section>
-    </div>
-  </div>
-  </footer>
+        </div>
+      </footer>
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

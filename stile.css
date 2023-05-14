@@ -31,29 +31,59 @@ h5 {color: rgb(123, 122, 126);
   width: 50%;
 }
 
-.card {
-    background-color: lightblue;
-    padding: 10px;
-    margin-top: 10px;
-  }
+input {
+  padding: .8rem 1rem;
+  width: 70%;
+  border-radius: 5rem;
+  outline: none;
+  border: 1px solid rgb(16, 10, 104);
+  font-size: 15px;
+}
 
-.btn {
-   font-family: Helvetica;
-   font-size: 30px;
-   font-weight: 100;
-   width: 100%;
-   padding: 25px;
-   -webkit-box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.22);
-   -moz-box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.22);
-   box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.22);
-   border: solid #000000 10px;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+textarea {
+  padding: .5rem 1rem;
+  width: 70%;
+  border-radius: 2rem;
+  outline: none;
+  border: 1px solid rgb(16, 10, 104);
+  font-size: 15px;
+}
+
+.form, .fa-search {
+  padding: .5rem 1rem;
+  width: 80%;
+  border-radius: 2rem;
+  outline: none;
+  font-size: 15px;
+  border-color:rgba(16, 10, 104, 0.295);
+}
+
+
+.btn-link, .subscribe-btn, .contact-btn {
+  padding: .8rem 2rem;
+  border-radius: 35px;
+  background: rgb(192, 225, 232);
+  color: rgb(16, 10, 104);
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: center;
+}
+
+.discover {
+  text-align: center;
+  display: block;
+}
+
+
+.card {
+    padding: 10px;
+    margin-top: 1opx;
   }
 
   .colored-section {
-    background-color: #bef3f377;
+    background-color: rgb(192, 225, 232);
     padding: 15px;
 }
 
@@ -115,9 +145,7 @@ table, th {
   opacity: 0.7;
 }
 
-.fa-search { background: #ffffffc0;
-  color: rgb(0, 0, 0);
-}
+
 
 .fa-facebook {
   background: #3B5998;

@@ -58,6 +58,40 @@ textarea {
   border-color:rgba(16, 10, 104, 0.295);
 }
 
+.popup {
+  width: 500px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1px 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.popup img {
+  width: 50px;
+  margin-top: -30px;
+}
+
+.popup h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.popup-btn {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.open-popup {
+  transform: translate(-50%, -50%) scale(1); }
 
 .btn-link, .subscribe-btn, .contact-btn {
   padding: .8rem 2rem;

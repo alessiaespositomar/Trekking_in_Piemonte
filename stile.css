@@ -182,6 +182,14 @@ table, th {
   left:0;
 }
 
+.col { 
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+     
+
+}
+
 /* colori dei social media */
 .fa {
   padding: 13px;

@@ -2,13 +2,24 @@ body, html { scroll-behavior: smooth;
     height: 100%;
 }
 
+h1 {color: rgb(0, 0, 0);
+  text-align: center;
+  background-size: 10px;
+  font-family: 'Titan One';
+ 
+ }
 
-h1, h2 {color: rgb(29, 102, 170);
+h2, h3 {color: rgb(0, 0, 0);
  text-align: center;
- background-size: 10px;
+ position: center;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
+h5 {color: rgb(123, 122, 126);
+  text-align: center;
+ }
+
 
 .rightcolumn { float: right;
 
@@ -18,13 +29,6 @@ h1, h2 {color: rgb(29, 102, 170);
 
 }
 
-h3 {color: rgb(29, 102, 170);
- text-align: center;
-}
-
-h5 {color: rgb(123, 122, 126);
-  text-align: center;
- }
 
 .column {
   float: left;
@@ -94,7 +98,7 @@ textarea {
   transform: translate(-50%, -50%) scale(1); }
 
 .btn-link, .subscribe-btn, .contact-btn {
-  padding: .8rem 2rem;
+  padding: .8rem 1rem;
   border-radius: 35px;
   background: rgb(192, 225, 232);
   color: rgb(29, 102, 170);
@@ -106,7 +110,7 @@ textarea {
 }
 
 .btn-footer {
-  padding: .4rem 2rem;
+  padding: .4rem 1rem;
   border-radius: 20px;
   background: rgb(192, 225, 232);
   color: rgb(29, 102, 170);
@@ -125,7 +129,7 @@ textarea {
 
 .card {
     padding: 10px;
-    margin-top: 1opx;
+    margin-top: 10px;
   }
 
   .colored-section {
@@ -167,7 +171,7 @@ table, th {
 }
 
 .navbar {
-  background-color: rgb(208, 240, 192);
+  background-color: rgb(185, 215, 163);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -175,7 +179,7 @@ table, th {
 
 
 .footer {
-  background-color: rgb(208, 240, 192);
+  background-color: rgb(185, 215, 163);
   width:100%;
   height: auto;
   position:absolute;
@@ -187,7 +191,46 @@ table, th {
   margin-right: 2%;
   text-align: center;
      
+}
 
+.parent {
+  position: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 2 / 2 / 3; display:inline-block; margin-right: -200px;}
+  .div2 { grid-area: 1 / 3 / 2 / 4; display:inline-block; margin-top: 40px; }
+  .div3 { grid-area: 2 / 2 / 3 / 3; display:inline-block; margin-top: 40px; }
+  .div4 { grid-area: 2 / 3 / 3 / 4; display:inline-block; margin-right: -200px;}
+  .div5 { grid-area: 3 / 2 / 4 / 3; display:inline-block; margin-right: -200px;}
+  .div6 { grid-area: 3 / 3 / 4 / 4; display:inline-block; margin-top: 50px;}
+  .div7 { grid-area: 4 / 2 / 5 / 3; display:inline-block; margin-top: 50px;}
+  .div8 { grid-area: 4 / 3 / 5 / 4; display:inline-block; margin-right: -200px;}
+  .div9 { grid-area: 5 / 2 / 6 / 3; display:inline-block; margin-right: -200px;}
+  .div10 { grid-area: 5 / 3 / 6 / 4; display:inline-block; margin-top: 50px;}
+  .div11 { grid-area: 6 / 2 / 7 / 3; display:inline-block; margin-top: 50px;}
+  .div12 { grid-area: 6 / 3 / 7 / 4; display:inline-block; margin-right: -200px;}
+  .div13 { grid-area: 7 / 2 / 8 / 3; display:inline-block; margin-right: -200px;}
+  .div14 { grid-area: 7 / 3 / 8 / 4; display:inline-block; margin-top: 40px;}
+  .div15 { grid-area: 8 / 2 / 9 / 3; display:inline-block; margin-top: 40px;}
+  .div16 { grid-area: 8 / 3 / 9 / 4; display:inline-block; margin-right: -200px;}
+  
+  
+.resize { 
+    width: 110px;
+    height: auto;
+    margin-right: 300px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.resize2 {
+  width: 150px;
+  height: auto;
 }
 
 /* colori dei social media */

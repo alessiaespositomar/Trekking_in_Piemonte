@@ -25,7 +25,7 @@ h1 {color: rgb(0, 0, 0);
  
  }
 
-h2, h3 {color: #1d66aa;
+h2, h3 {color: rgb(29, 102, 170);
  text-align: center;
  position: center;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -69,6 +69,7 @@ textarea {
   font-size: 15px;
 }
 
+
 .form, .fa-search {
   padding: .5rem 1rem;
   width: 80%;
@@ -111,7 +112,8 @@ textarea {
 }
 
 .open-popup {
-  transform: translate(-50%, -50%) scale(1); }
+  transform: translate(-50%, -50%) scale(1); 
+}
 
 .btn-link, .subscribe-btn, .contact-btn {
   padding: .8rem 1rem;
@@ -159,6 +161,7 @@ textarea {
   }
 
 .gallery {
+    align-content: center;
     display: flex;
     flex-wrap: wrap;
     margin: 1rem 1rem;
@@ -167,7 +170,7 @@ textarea {
 
 .gallery-item {
     position:relative;
-    flex: 1 0 10rem;
+    flex: 1 0 5rem;
     margin: 1rem;
     cursor: pointer;
 }
@@ -190,6 +193,7 @@ table, th {
   background-color: rgb(185, 215, 163);
   position: sticky;
   top: 0;
+  width: 100%;
   z-index: 100;
 }
 
@@ -235,7 +239,8 @@ table, th {
   .div15 { grid-area: 8 / 2 / 9 / 3; display:inline-block; margin-top: 40px;}
   .div16 { grid-area: 8 / 3 / 9 / 4; display:inline-block; margin-right: -200px;}
   
-  
+
+/* ridimensionamento per icone equipaggiamento */
 .resize { 
     width: 110px;
     height: auto;
@@ -246,6 +251,11 @@ table, th {
 
 .resize2 {
   width: 150px;
+  height: auto;
+}
+
+.resize3 {
+  width: 210px;
   height: auto;
 }
 

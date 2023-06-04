@@ -82,8 +82,9 @@ textarea {
 .popup {
   width: 500px;
   background: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid black;
+  box-shadow: rgba(20, 82, 139, 0.56) 0px 22px 70px 4px;
   text-align: center;
   padding: 1px 10px;
   position: fixed;
@@ -115,6 +116,7 @@ textarea {
   transform: translate(-50%, -50%) scale(1); 
 }
 
+
 .btn-link, .subscribe-btn, .contact-btn {
   padding: .8rem 1rem;
   border-radius: 35px;
@@ -137,6 +139,18 @@ textarea {
   outline: none;
   cursor: pointer;
   position: center;
+}
+
+.btn-dwnl {
+  padding: .3rem 0.5rem;
+  border-radius: 3px;
+  background: rgba(250, 249, 249, 0.925);
+  color: rgb(29, 102, 170);
+  border: 1px solid rgb(29, 102, 170);
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  position: inherit;
 }
 
 .discover {

@@ -171,12 +171,13 @@ textarea {
 }
 
 .container { 
-  max-width: 100%; 
+  width: 100%; 
   height: auto;
 }
 
 .card-deck { 
   text-align: center
+  
 }
 
   .colored-section {
@@ -325,4 +326,11 @@ table, th {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   color: white;
   border: 1px solid rgb(29, 102, 170);
+}
+
+@media screen and (max-width: 360px) {
+ .col .row .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }

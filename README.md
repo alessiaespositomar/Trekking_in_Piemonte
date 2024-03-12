@@ -1,1 +1,3 @@
-# sitoTrekking---Copia
+Trekking in Piemonte
+Questo sito è stato realizzato come progetto finale per il corso di informatica applicata alla comunicazione multimediale. 
+L'obbiettivo è di promuovere il territorio piemontese come meta escursionistica adatta a tutti tramite: la scelta di itinerari da percorrere divisi per località, foto dei paesaggi e dati tecnici sui percorsi per gli amanti del trekking. 

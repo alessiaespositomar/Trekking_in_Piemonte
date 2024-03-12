@@ -1,5 +1,6 @@
 body, html { scroll-behavior: smooth;
     height: 100%;
+    width: 100%;
 }
 
 a {
@@ -158,6 +159,10 @@ textarea {
   display: block;
 }
 
+.container { 
+  max-width: 100%; 
+  height: auto;
+}
 
 .card {
     padding: 10px;

@@ -175,10 +175,9 @@ textarea {
   height: auto;
 }
 
-.card {
-    padding: 10px;
-    margin-top: 10px;
-  }
+.card-deck { 
+  text-align: center
+}
 
   .colored-section {
     background-color: rgb(192, 225, 232);

@@ -38,11 +38,11 @@ h5 {color: rgb(123, 122, 126);
  }
 
 
-.rightcolumn { float: right;
+.rightcolumn { float:inline-start;
 
 }
 
-.leftcolumn { float: left;
+.leftcolumn { float: inline-end;
 
 }
 
@@ -68,6 +68,17 @@ textarea {
   outline: none;
   border: 1px solid rgb(29, 102, 170);
   font-size: 15px;
+}
+
+.mappa {
+  justify-content: center;
+  width: 100%;
+  height: auto;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10%;
+
 }
 
 
@@ -199,6 +210,8 @@ table, th {
   padding: 45px;
   margin: 10px;
   place-content: center;
+  width: auto;
+  height: auto;
 }
 
 .img-hover-zoom img {

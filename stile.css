@@ -1,7 +1,18 @@
-body, html { scroll-behavior: smooth;
-    height: 100%;
-    width: 100%;
-}
+html  { scroll-behavior: smooth;
+
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: none;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  
+    }
+  
 
 a {
   padding-right: 0;

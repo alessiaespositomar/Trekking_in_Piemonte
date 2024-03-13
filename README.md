@@ -2,15 +2,10 @@
 Questo sito è stato realizzato come progetto finale per il corso di informatica applicata alla comunicazione multimediale (2023). 
 L'obbiettivo è di promuovere il territorio piemontese come meta escursionistica adatta a tutti tramite: la scelta di itinerari da percorrere divisi per località, foto dei paesaggi, dati tecnici sui percorsi per gli amanti del trekking e consigli sull'equipaggiamento da avere sempre con sè. 
 
-PROTOTIPO PAGINE TRAMITE FIGMA
+PROTOTIPO HOMEPAGE E PAGINA ESCURSIONI TRAMITE FIGMA
 
-HOMEPAGE
-
-<img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/e75df658-3e08-4691-bc49-fd43b086f12a.jpg" width=40% height=40%> PAGINA ESCURSIONI
-
-<img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/daa2c765-4113-4c2e-a69c-d1ea95d5d648.jpg" width=40% height=40%>
+<img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/e07e1a60-51ee-419e-a5dd-65de6da257a0.jpg" width=40% height=40%>
 
 
 DESIGN LOGO
-
-![logo-removebg-preview](https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/9202aa1c-561f-4333-8c0e-09c57b78a5e3.png)
+<img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/9202aa1c-561f-4333-8c0e-09c57b78a5e3.png" width=40% height=40%>

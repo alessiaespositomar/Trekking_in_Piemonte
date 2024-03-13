@@ -4,8 +4,8 @@ L'obbiettivo è di promuovere il territorio piemontese come meta escursionistica
 
 PROTOTIPO HOMEPAGE E PAGINA ESCURSIONI TRAMITE FIGMA
 
-<img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/e07e1a60-51ee-419e-a5dd-65de6da257a0.jpg" width=40% height=40%>
+<img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/e07e1a60-51ee-419e-a5dd-65de6da257a0.jpg" width=50% height=50%>
 
 
 DESIGN LOGO
-<img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/9202aa1c-561f-4333-8c0e-09c57b78a5e3.png" width=40% height=40%>
+<img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/9202aa1c-561f-4333-8c0e-09c57b78a5e3.png" width=30% height=30%>

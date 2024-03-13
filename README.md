@@ -9,5 +9,5 @@ PROTOTIPO HOMEPAGE E PAGINA ESCURSIONI TRAMITE FIGMA
 
 <br />
 DESIGN LOGO
-
+<br />
 <img src="https://github.com/alessiaespositomar/Trekking_in_Piemonte/assets/128999656/9202aa1c-561f-4333-8c0e-09c57b78a5e3.png" width=20%>

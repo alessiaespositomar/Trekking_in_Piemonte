@@ -182,13 +182,19 @@ textarea {
 }
 
 .container { 
-  width: 100%; 
+  max-width: 100%; 
   height: auto;
+}
+
+body {
+  background-color: rgb(255,255,255); /*colore bianco*/
+  background-size: cover;
+  width: 100%;
+  color: rgb(255,255,255);
 }
 
 .card-deck { 
   text-align: center
-  
 }
 
   .colored-section {
@@ -199,6 +205,7 @@ textarea {
 .p {color: rgb(0, 0, 0);
      align-content: center;
      width: 100%;
+     height: auto;
   }
 
 .gallery {
@@ -257,18 +264,17 @@ table, th {
 }
 
 .parent {
-  position: 100%;
   display: grid;
+  width: 100%; 
+  height: auto;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
   }
   
   .div1 { grid-area: 1 / 2 / 2 / 3; display:inline-block; margin-right: -200px;}
   .div2 { grid-area: 1 / 3 / 2 / 4; display:inline-block; margin-top: 40px; }
   .div3 { grid-area: 2 / 2 / 3 / 3; display:inline-block; margin-top: 40px; }
-  .div4 { grid-area: 2 / 3 / 3 / 4; display:inline-block; margin-right: -200px;}
+  .div4 { grid-area: 2 / 3 / 3 / 4; display:inline-block; margin-right: -200px; margin-left: 20px;}
   .div5 { grid-area: 3 / 2 / 4 / 3; display:inline-block; margin-right: -200px;}
   .div6 { grid-area: 3 / 3 / 4 / 4; display:inline-block; margin-top: 50px;}
   .div7 { grid-area: 4 / 2 / 5 / 3; display:inline-block; margin-top: 50px;}
@@ -276,31 +282,13 @@ table, th {
   .div9 { grid-area: 5 / 2 / 6 / 3; display:inline-block; margin-right: -200px;}
   .div10 { grid-area: 5 / 3 / 6 / 4; display:inline-block; margin-top: 50px;}
   .div11 { grid-area: 6 / 2 / 7 / 3; display:inline-block; margin-top: 50px;}
-  .div12 { grid-area: 6 / 3 / 7 / 4; display:inline-block; margin-right: -200px;}
-  .div13 { grid-area: 7 / 2 / 8 / 3; display:inline-block; margin-right: -200px;}
+  .div12 { grid-area: 6 / 3 / 7 / 4; display:inline-block; margin-right: -200px; margin-left: 20px;}
+  .div13 { grid-area: 7 / 2 / 8 / 3; display:inline-block; margin-right: -210px;}
   .div14 { grid-area: 7 / 3 / 8 / 4; display:inline-block; margin-top: 40px;}
   .div15 { grid-area: 8 / 2 / 9 / 3; display:inline-block; margin-top: 40px;}
-  .div16 { grid-area: 8 / 3 / 9 / 4; display:inline-block; margin-right: -200px;}
+  .div16 { grid-area: 8 / 3 / 9 / 4; display:inline-block; margin-right: -200px; margin-left: 20px;}
   
 
-/* ridimensionamento per icone equipaggiamento */
-.resize { 
-    width: 110px;
-    height: auto;
-    margin-right: 300px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-}
-
-.resize2 {
-  width: 150px;
-  height: auto;
-}
-
-.resize3 {
-  width: 210px;
-  height: auto;
-}
 
 /* colori dei social media */
 .fa {
@@ -340,7 +328,7 @@ table, th {
 }
 
 @media screen and (max-width: 360px) {
- .col .row .column, input[type=submit] {
+ .container .parent .col .row .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
